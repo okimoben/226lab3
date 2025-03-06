@@ -78,7 +78,7 @@ public:
 		return back->data;
 	}
 
-	void printQueue(){
+    void printQueue(){
         if (isEmpty()){
             cout << "Queue is empty!" << endl;
             return;
